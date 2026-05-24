@@ -1,0 +1,8 @@
+{
+  "name": "Kulan",
+  "description": "Premium futuristic digital marketing agency featuring AI startup design, glassmorphism UI, and cinematic visuals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
