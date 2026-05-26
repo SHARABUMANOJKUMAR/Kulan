@@ -1,0 +1,17 @@
+{
+  "name": "Tekzio - AI Digital Agency Bangalore",
+  "short_name": "Tekzio",
+  "description": "Tech Agency Bangalore offering AI Automation, Web Development, and Digital Marketing.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#021B1B",
+  "theme_color": "#14B8A6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
