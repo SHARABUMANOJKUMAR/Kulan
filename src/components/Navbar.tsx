@@ -31,7 +31,7 @@ export default function Navbar() {
             <span>Monday - Friday, 10am - 05pm</span>
           </div>
           <div className="flex items-center gap-2 hover:text-white transition-colors cursor-pointer">
-            <span>tekzio2026@gmail.com</span>
+            <span>info@tekzio.in</span>
           </div>
           <div className="flex items-center gap-2 hover:text-white transition-colors cursor-pointer">
             <span>+91 9483004142</span>
