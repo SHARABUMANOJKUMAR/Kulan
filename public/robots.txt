@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tekzio.com/sitemap.xml
+Sitemap: https://tekzio.in/sitemap.xml
