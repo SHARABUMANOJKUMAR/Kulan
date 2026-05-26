@@ -95,7 +95,7 @@ const services: Service[] = [
   }
 ];
 
-function ServiceCard({ service, idx }: { service: Service, idx: number }) {
+function ServiceCard({ service, idx }: { service: Service, idx: number, key?: number | string }) {
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
 

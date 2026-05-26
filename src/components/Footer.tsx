@@ -65,11 +65,11 @@ export default function Footer() {
           <div className="lg:col-span-4 lg:pl-8">
             <h4 className="text-white font-bold font-heading mb-6 text-lg">Contact Information</h4>
             <div className="space-y-4 text-text-gray">
-              <a href="mailto:Info@tekzio.in" className="hover:text-white transition-colors flex items-center gap-3">
+              <a href="mailto:tekzio2026@gmail.com" className="hover:text-white transition-colors flex items-center gap-3">
                 <div className="w-8 h-8 rounded-full flex items-center justify-center shrink-0">
                   <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Email" className="w-6 h-6 object-contain" />
                 </div>
-                Info@tekzio.in
+                tekzio2026@gmail.com
               </a>
               <a href="tel:9483004142" className="hover:text-white transition-colors flex items-center gap-3">
                 <div className="w-8 h-8 rounded-full flex items-center justify-center shrink-0">
