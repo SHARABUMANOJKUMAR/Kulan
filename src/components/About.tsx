@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Target, Lightbulb, Zap, TrendingUp, CheckCircle2 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function About() {
   const features = [
@@ -62,7 +63,7 @@ export default function About() {
             <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6 leading-tight">
               Save Your Time And <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold to-white">
-                Grow Faster With Kulan
+                Grow Faster With TEKZIO
               </span>
             </h2>
             
@@ -98,13 +99,15 @@ export default function About() {
               ))}
             </ul>
 
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-8 py-4 rounded-full bg-white/10 hover:bg-white/20 text-white font-bold transition-all border border-white/10 hover:border-white/30"
-            >
-              Discover Our Story
-            </motion.button>
+            <Link to="/about">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="px-8 py-4 rounded-full bg-white/10 hover:bg-white/20 text-white font-bold transition-all border border-white/10 hover:border-white/30"
+              >
+                Discover Our Story
+              </motion.button>
+            </Link>
           </motion.div>
 
         </div>

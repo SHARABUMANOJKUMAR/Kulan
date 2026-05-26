@@ -4,7 +4,7 @@ import { Quote, Star } from 'lucide-react';
 export default function Testimonials() {
   const reviews = [
     {
-      text: "Kulan didn't just redesign our website; they re-engineered our entire digital acquisition funnel. Our lead volume increased by 300% in the first quarter alone.",
+      text: "TEKZIO didn't just redesign our website; they re-engineered our entire digital acquisition funnel. Our lead volume increased by 300% in the first quarter alone.",
       name: "Eleanor Vance",
       role: "CMO, Nexus Tech",
       avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=256&auto=format&fit=crop"

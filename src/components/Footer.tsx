@@ -14,11 +14,8 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-20">
           
           <div className="lg:col-span-4 pr-4">
-            <a href="#" className="font-heading font-bold text-3xl tracking-tight flex items-center gap-2 mb-6 group">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-gold to-yellow-600 flex items-center justify-center text-primary-bg font-bold shadow-[0_0_20px_rgba(231,200,115,0.4)] group-hover:shadow-[0_0_30px_rgba(231,200,115,0.6)] transition-shadow duration-300">
-                K
-              </div>
-              <span className="text-white">Kulan<span className="text-gold">.</span></span>
+            <a href="#" className="font-heading font-bold text-3xl tracking-wide flex items-center mb-6 group">
+              <span className="text-gold">TEK</span><span className="text-white">ZIO</span>
             </a>
             <p className="text-text-gray mb-8 max-w-sm">
               A premium digital marketing agency driven by artificial intelligence and designed for modern visionaries.
@@ -68,18 +65,28 @@ export default function Footer() {
           <div className="lg:col-span-4 lg:pl-8">
             <h4 className="text-white font-bold font-heading mb-6 text-lg">Contact Information</h4>
             <div className="space-y-4 text-text-gray">
-              <p className="hover:text-white transition-colors cursor-pointer flex items-center gap-2">
-                <span className="w-8 h-8 rounded-full glass border-white/10 flex items-center justify-center text-gold"><ArrowUpRight size={14}/></span>
-                kulan@gmail.com
-              </p>
-              <p className="hover:text-white transition-colors cursor-pointer flex items-center gap-2">
-                <span className="w-8 h-8 rounded-full glass border-white/10 flex items-center justify-center text-gold"><ArrowUpRight size={14}/></span>
-                +3929 299 999
-              </p>
-              <p className="leading-relaxed mt-4">
-                450 Futuristic Avenue, Suite 300<br/>
-                San Francisco, CA 94107
-              </p>
+              <a href="mailto:Info@tekzio.in" className="hover:text-white transition-colors flex items-center gap-3">
+                <div className="w-8 h-8 rounded-full flex items-center justify-center shrink-0">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Email" className="w-6 h-6 object-contain" />
+                </div>
+                Info@tekzio.in
+              </a>
+              <a href="tel:9483004142" className="hover:text-white transition-colors flex items-center gap-3">
+                <div className="w-8 h-8 rounded-full flex items-center justify-center shrink-0">
+                  <img src="https://img.icons8.com/color/48/phone.png" alt="Phone" className="w-6 h-6 object-contain" />
+                </div>
+                +91 9483004142
+              </a>
+              <div className="flex items-start gap-3 mt-4">
+                <div className="w-8 h-8 rounded-full flex items-center justify-center shrink-0 mt-1">
+                  <img src="https://img.icons8.com/color/48/map-pin.png" alt="Location" className="w-6 h-6 object-contain" />
+                </div>
+                <p className="leading-relaxed">
+                  Tekzio 166, 3rd cross,<br/>
+                  Amco Layout, Sahakar Nagar<br/>
+                  Bangalore 560092
+                </p>
+              </div>
             </div>
             
             <Link to="/contact" className="mt-8 inline-block relative group overflow-hidden pl-6 pr-12 py-3 rounded-full border border-white/20 text-white font-medium">
@@ -93,7 +100,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-text-gray">
-          <p>© 2026 Kulan Digital Agency. All rights reserved.</p>
+          <p>© 2026 TEKZIO Digital Agency. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-gold transition-colors">Privacy</a>
             <a href="#" className="hover:text-gold transition-colors">Terms</a>

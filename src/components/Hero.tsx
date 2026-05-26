@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Play, Sparkles } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
@@ -57,26 +58,30 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-5">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="group relative px-8 py-4 rounded-full bg-gradient-to-r from-gold to-yellow-600 text-primary-bg font-bold flex items-center justify-center gap-3 overflow-hidden gold-glow"
-              >
-                <span className="relative z-10">Schedule Consultation</span>
-                <ArrowRight size={18} className="relative z-10 group-hover:translate-x-1 transition-transform" />
-                <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out" />
-              </motion.button>
+              <Link to="/contact">
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="group relative px-8 py-4 rounded-full bg-gradient-to-r from-gold to-yellow-600 text-primary-bg font-bold flex items-center justify-center gap-3 overflow-hidden gold-glow"
+                >
+                  <span className="relative z-10">Schedule Consultation</span>
+                  <ArrowRight size={18} className="relative z-10 group-hover:translate-x-1 transition-transform" />
+                  <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out" />
+                </motion.button>
+              </Link>
               
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 rounded-full glass border-white/20 font-bold text-white flex items-center justify-center gap-3 hover:bg-white/10 transition-colors"
-              >
-                <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center pl-1">
-                  <Play size={14} className="text-white" />
-                </div>
-                Explore Services
-              </motion.button>
+              <Link to="/services">
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="px-8 py-4 rounded-full glass border-white/20 font-bold text-white flex items-center justify-center gap-3 hover:bg-white/10 transition-colors"
+                >
+                  <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center pl-1">
+                    <Play size={14} className="text-white" />
+                  </div>
+                  Explore Services
+                </motion.button>
+              </Link>
             </div>
           </motion.div>
 
